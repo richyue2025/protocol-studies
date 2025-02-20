@@ -1,34 +1,38 @@
 # Prehistory of Ethereum
-
+以太坊的起源
 > “Heroes are heroes because they are heroic in behavior, not because they won or lost.”\
 > — Nicholas Taleb
-
+「英雄之所以成为英雄，是因为他们的行为充满勇气，而非因为他们成功或失败。」
+—— 尼古拉斯·塔勒布
 This article explores the lineage of Ethereum, celebrating the heroes who influenced it with their courage, creativity, and sheer rebellion.
-
+本文追溯了以太坊的起源，向那些以勇气、创造力和反叛精神塑造了以太坊的先驱们致敬。
 Ethereum has its roots in the early internet's open spirit, with its design philosophy echoing the Unix ideal of 'doing one thing and doing it well'. The rise of the free and open source movement, embodied by GNU/Linux, reaffirmed open standards in software. Meanwhile, breakthroughs in public key cryptography and its advocacy by the cypherpunks laid the groundwork for secure, transparent, and decentralized systems like Bitcoin which ultimately inspired Ethereum's vision of building a platform for a borderless, self-sovereign digital economy.
-
+以太坊的灵感源自早期互联网的开放精神，其设计理念与 Unix 的「专注做好一件事」不谋而合。GNU/Linux 引领的自由和开源运动，进一步巩固了软件领域的开放标准。与此同时，公钥密码学的突破以及密码朋克们的倡导，为比特币这样的安全、透明、去中心化系统铺平了道路，最终激发了以太坊的愿景：构建一个无国界、自主的数字经济平台。
 > “If you look at the people that were involved in the early stages of the Bitcoin space, their earlier pedigrees, if they had any pedigrees at all, were in open source—Linux, Mozilla, and cypherpunk mailing lists.”\
 > — _Vitalik Buterin, Co-founder of Ethereum._
-
+「如果你回顾比特币早期参与者的背景，会发现他们大多来自开源领域——Linux、Mozilla 和密码朋克邮件列表。」
+> —— 维塔利克·布特林，以太坊联合创始人。
 ## The information super highway
-
+信息高速公路的崛起
 From its humble beginnings in 1969 as a Cold War project ([ARPANET](https://en.wikipedia.org/wiki/ARPANET)), the internet has evolved into an unprecedented global phenomenon.
-
+互联网始于 1969 年，最初是冷战时期的项目([ARPANET](https://en.wikipedia.org/wiki/ARPANET))，如今已发展成为一场席卷全球的革命。
 > "The Internet's pace of adoption eclipses all other technologies that preceded it. Radio was in existence 38 years before 50 million people tuned in; TV took 13 years to reach that benchmark. Sixteen years after the first PC kit came out, 50 million people were using one. Once it was opened to the general public, the Internet crossed that line in four years."\
 > — [The Emerging Digital Economy,(July 1998).](https://www.commerce.gov/sites/default/files/migrated/reports/emergingdig_0.pdf)
-
-![A map of internet cables from 1989 to 2021.](img/overview/information-superhighway.gif)
+「互联网的普及速度超越了以往任何技术。广播用了 38 年才吸引 5000 万听众，电视用了 13 年达到这一里程碑，而个人电脑则花了 16 年。然而，互联网向公众开放后，仅用四年就突破了这一界限。」
+—— 《新兴数字经济》（1998 年 7 月）。
+[A map of internet cables from 1989 to 2021.](img/overview/information-superhighway.gif)
 **A map of internet cables from 1989 to 2021. [Source: The New York Times.](https://www.nytimes.com/interactive/2019/03/10/technology/internet-cables-oceans.html)**
-
+1989 年至 2021 年的互联网电缆地图。
 What started as a research tool for a handful of institutions now connects billions worldwide, collapsing geographical borders and facilitating human interactions that were once inconceivable.
-
+从最初少数机构的研究工具，到如今连接全球数十亿人，互联网打破了地理界限，让曾经难以想象的人类互动成为可能。
 > "National borders are just speed bumps on the information superhighway."\
 > — Timothy May, Cypherpunk.
-
+「国界不过是信息高速公路上的减速带。」
+—— 蒂莫西·梅，密码朋克。
 ## Unix & Bell Labs
 
 Unix originated from the efforts to simplify the complexities of [MULTICS](https://en.wikipedia.org/wiki/Multics), a large and ambitious operating system project of the 1960s. As MULTICS became unwieldy, a small group including [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) and [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) at AT&T Bell Labs sought to create Unix - a more modular, simpler, and composable alternative:
-
+Unix 起源于简化 MULTICS 的复杂性，MULTICS 是一个1960年代的大型雄心勃勃的操作系统项目。随着 MULTICS 变得臃肿，AT&T 贝尔实验室的 Ken Thompson 和 Dennis Ritchie 等一小群人开始着手创建 Unix——一个更模块化、更简洁、更具可组合性的操作系统替代品：
 > "At some point I realized that I was three weeks from an operating system. I'll needed an editor, assembler, and kernel overlay — call it an operating system. One week, one week, one week, and we had Unix."\
 > — [_Ken Thompson in an interview_](https://www.youtube.com/watch?v=EY6q5dv_B-o)
 
