@@ -1,72 +1,83 @@
 # Prehistory of Ethereum
-
+以太坊的前世今生
 > “Heroes are heroes because they are heroic in behavior, not because they won or lost.”\
 > — Nicholas Taleb
-
+> 『英雄之所以成为英雄，是因为他们的行为英勇，而不是因为他们赢了或输了。』
+> ——尼古拉斯·塔勒布 
 This article explores the lineage of Ethereum, celebrating the heroes who influenced it with their courage, creativity, and sheer rebellion.
-
+本文探讨了以太坊的起源，向那些以勇气、创造力和叛逆精神影响它的英雄们致敬。
 Ethereum has its roots in the early internet's open spirit, with its design philosophy echoing the Unix ideal of 'doing one thing and doing it well'. The rise of the free and open source movement, embodied by GNU/Linux, reaffirmed open standards in software. Meanwhile, breakthroughs in public key cryptography and its advocacy by the cypherpunks laid the groundwork for secure, transparent, and decentralized systems like Bitcoin which ultimately inspired Ethereum's vision of building a platform for a borderless, self-sovereign digital economy.
-
+以太坊的根源可以追溯到早期互联网的开放精神，其设计理念呼应了Unix“做一件事并做好”的理想。自由和开源运动的兴起，以GNU/Linux为代表，重申了软件的开放标准。与此同时，公钥密码学的突破及其由密码朋克（cypherpunks）倡导的应用，为比特币等安全、透明和去中心化系统奠定了基础，最终激发了以太坊构建一个无国界、自主的数字经济平台的愿景。
 > “If you look at the people that were involved in the early stages of the Bitcoin space, their earlier pedigrees, if they had any pedigrees at all, were in open source—Linux, Mozilla, and cypherpunk mailing lists.”\
 > — _Vitalik Buterin, Co-founder of Ethereum._
+『如果你看看早期参与比特币领域的人，他们的背景大多与开源相关——Linux、Mozilla和密码朋克邮件列表。』
+> ——Vitalik Buterin，以太坊联合创始人
 
 ## The information super highway
-
 From its humble beginnings in 1969 as a Cold War project ([ARPANET](https://en.wikipedia.org/wiki/ARPANET)), the internet has evolved into an unprecedented global phenomenon.
-
+## 信息高速公路
+从1969年作为冷战项目（ARPANET）的卑微开端，互联网已经演变成一个前所未有的全球现象。([ARPANET](https://en.wikipedia.org/wiki/ARPANET))
 > "The Internet's pace of adoption eclipses all other technologies that preceded it. Radio was in existence 38 years before 50 million people tuned in; TV took 13 years to reach that benchmark. Sixteen years after the first PC kit came out, 50 million people were using one. Once it was opened to the general public, the Internet crossed that line in four years."\
 > — [The Emerging Digital Economy,(July 1998).](https://www.commerce.gov/sites/default/files/migrated/reports/emergingdig_0.pdf)
-
+> 『互联网的普及速度超过了之前的所有技术。广播用了38年才达到5000万用户；电视用了13年。第一台个人电脑问世16年后，5000万人开始使用它。而互联网向公众开放后，仅用了4年就突破了这一门槛。』
+> ——《新兴数字经济》（1998年7月）
 ![A map of internet cables from 1989 to 2021.](img/overview/information-superhighway.gif)
 **A map of internet cables from 1989 to 2021. [Source: The New York Times.](https://www.nytimes.com/interactive/2019/03/10/technology/internet-cables-oceans.html)**
-
+1989年至2021年的互联网电缆地图 (img/overview/information-superhighway.gif)
+** 1989年至2021年的互联网电缆地图。来源：《纽约时报》
 What started as a research tool for a handful of institutions now connects billions worldwide, collapsing geographical borders and facilitating human interactions that were once inconceivable.
-
+最初作为少数机构的研究工具，互联网如今连接了全球数十亿人，打破了地理界限，促进了曾经难以想象的人类互动。
 > "National borders are just speed bumps on the information superhighway."\
 > — Timothy May, Cypherpunk.
-
+『国界只是信息高速公路上的减速带。』
+> ——蒂莫西·梅，密码朋克
 ## Unix & Bell Labs
-
+## Unix与贝尔实验室
 Unix originated from the efforts to simplify the complexities of [MULTICS](https://en.wikipedia.org/wiki/Multics), a large and ambitious operating system project of the 1960s. As MULTICS became unwieldy, a small group including [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) and [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) at AT&T Bell Labs sought to create Unix - a more modular, simpler, and composable alternative:
-
+Unix起源于简化MULTICS复杂性的努力 (https://en.wikipedia.org/wiki/Multics)，MULTICS是20世纪60年代一个庞大而雄心勃勃的操作系统项目。随着MULTICS变得笨重，AT&T贝尔实验室的一小群人，包括肯·汤普森 (https://en.wikipedia.org/wiki/Ken_Thompson) 和丹尼斯·里奇 (https://en.wikipedia.org/wiki/Dennis_Ritchie) ，开始创建Unix——一个更模块化、更简单且可组合的替代品：
 > "At some point I realized that I was three weeks from an operating system. I'll needed an editor, assembler, and kernel overlay — call it an operating system. One week, one week, one week, and we had Unix."\
 > — [_Ken Thompson in an interview_](https://www.youtube.com/watch?v=EY6q5dv_B-o)
-
+> 『在某个时刻，我意识到我离一个操作系统只有三周的时间。我需要一个编辑器、汇编器和内核覆盖——这就是一个操作系统。一周、一周、一周，我们有了Unix。』\
+> ——肯·汤普森在一次采访中 (https://www.youtube.com/watch?v=EY6q5dv_B-o)
 In 1972, Dennis also wrote the influential [C language](<https://en.wikipedia.org/wiki/C_(programming_language)>).
-
+1972年，丹尼斯还编写了具有影响力的C语言。
+(<https://en.wikipedia.org/wiki/C_(programming_language)>).
 ![Ken Thompson and Dennis Ritchie](img/overview/ken-thompson-dennis-ritchie.jpg)
+! 肯·汤普森和丹尼斯·里奇 (img/overview/ken-thompson-dennis-ritchie.jpg)
 **Ken Thompson and Dennis Ritchie.**
-
 Bell Labs was an unparalleled incubator of the century's most defining technological building blocks:
-
+肯·汤普森和丹尼斯·里奇。
+贝尔实验室是20世纪最具定义性的技术构建模块的孵化器：
 > "You couldn't go to the store and buy a Bell Labs innovation, yet it was deep inside other things; it was platform innovation integral to communications infrastructure."\
 > — Jon G., The Idea Factory
-
+『你无法在商店里买到贝尔实验室的创新，但它深嵌在其他事物中；它是通信基础设施的核心平台创新。』
+——乔恩·G，《创意工厂》
 > 🎦 WATCH: [Jon talk about innovations at Bell Labs.](https://www.youtube.com/watch?v=OJsKgiGGzzs)
-
+> 🎦 观看：乔恩谈论贝尔实验室的创新
 In many ways, [Ethereum functions](https://ethereum.foundation/infinitegarden) like an open Bell Labs.
-
+在许多方面，以太坊的功能就像一个开放的贝尔实验室。(https://ethereum.foundation/infinitegarden)
 Unix introduced concepts like hierarchical file systems, the shell as a command-line interface, single-purpose utilities that could be combined to perform complex tasks.
 These foundational principles laid the groundwork for what became known as the UNIX philosophy — favoring simplicity, flexibility, and reusability in software design.
-
+Unix引入了分层文件系统、命令行界面（shell）以及可以组合执行复杂任务的单一用途工具等概念。这些基本原则奠定了后来被称为UNIX哲学的基础——在软件设计中崇尚简洁、灵活和可重用性。
 Today, UNIX and its derivatives continue to underpin much of modern computing, influencing everything from operating systems like Linux and macOS to the principles of timeless software development.
-
+如今，UNIX及其衍生系统继续支撑着现代计算的很大一部分，影响了从Linux和macOS等操作系统到永恒软件开发原则的方方面面。
 > 🎦 WATCH: [The Unix documentary.](https://www.youtube.com/watch?v=tc4ROCJYbm0)
-
+> 🎦 观看：Unix纪录片 (https://www.youtube.com/watch?v=tc4ROCJYbm0)
 The Unix legacy demonstrates the profound influence a small group of individuals can have on the world through software.
-
+Unix的遗产展示了少数人通过软件对世界产生的深远影响。
 ## Can we keep a secret?
-
+## 我们能保守秘密吗？
 Since the dawn of civilization, the need to convey messages in secrecy has been a constant human pursuit. From merchants concealing trade secrets to spies and the military transmitting critical information, cryptography has played a vital role. Early methods often used the same key for both encryption and decryption, making secure key distribution a nightmare:
-
+自文明诞生以来，传递秘密信息的需求一直是人类不懈的追求。从商人隐藏商业秘密到间谍和军队传递关键信息，密码学一直扮演着重要角色。早期的方法通常使用相同的密钥进行加密和解密，这使得密钥的安全分发成为噩梦：
 > "The problem of producing, registering, distributing and canceling the keys, may seem slight to an individual who has not had experience with military communications, but in wartime the volumes of traffic stagger even the signal staffs."\
 > — [David Kahn writes in _the codebreakers_](https://en.wikipedia.org/wiki/The_Codebreakers)
-
+『 生成、注册、分发和取消密钥的问题，对于没有军事通信经验的人来说可能看似微不足道，但在战时，通信量之大甚至让信号人员都感到震惊。』
+> ——大卫·卡恩，《密码破译者》
 If a key fell into enemy hands, messages were vulnerable. This was evident in World War II with the cracking of the [Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine), a sophisticated German cipher, by mathematician [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) and his team. Their success significantly altered the outcome of the war.
-
+如果密钥 [Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine), 落入敌人手中，信息就会暴露。这在二战期间表现得尤为明显，数学家艾伦·图灵 (https://en.wikipedia.org/wiki/Alan_Turing) 及其团队破解了德国复杂的密码机恩尼格玛，他们的成功显著改变了战争的走向。
 ![A statue of Alan Turing and the Enigma machine.](img/overview/alan-turing.jpg)
 **A statue of Alan Turing and the Enigma machine.**
-
+艾伦·图灵 的雕像和恩尼格玛密码机 (img/overview/alan-turing.jpg)
 How do you securely exchange keys over long distances, between people who have never met? Critics believed that cryptography was destined to be dependent on trust:
 
 > "Few persons can be made to believe that it is not quite an easy thing to invent a method of secret writing which shall baffle investigation. Yet it may be roundly asserted that human ingenuity cannot concoct a cipher which human ingenuity cannot resolve."\
